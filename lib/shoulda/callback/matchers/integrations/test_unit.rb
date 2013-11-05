@@ -3,7 +3,7 @@
 # in environments where test/unit is not required, this is necessary
 unless defined?(Test::Unit::TestCase)
   begin
-    require 'test/unit' 
+    require 'test/unit/testcase'
   rescue LoadError
     # silent
   end
